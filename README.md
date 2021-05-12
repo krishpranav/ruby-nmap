@@ -75,9 +75,9 @@ Nmap::XML.new('nse.xml') do |xml|
       puts "  [#{port.number}/#{port.protocol}]"
 
       port.scripts.each do |name,output|
-        puts "    [#{name}]"
+        puts " [#{name}]"
 
-        output.each_line { |line| puts "      #{line}" }
+        output.each_line { |line| puts "#{line}" }
       end
     end
   end
