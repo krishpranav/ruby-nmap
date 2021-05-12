@@ -1,0 +1,10 @@
+Gemfile.lock
+coverage
+doc
+pkg
+.DS_Store
+*.db
+*.log
+*.swp
+*~
+*.gem
