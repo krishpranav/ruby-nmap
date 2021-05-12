@@ -1,0 +1,22 @@
+name: ruby-nmap
+summary: A Ruby nmap
+description:
+  A Ruby interface to nmap, the exploration tool and security / port
+  scanner. Allows automating nmap and parsing nmap XML files.
+
+license: MIT
+authors: krishpranav
+email: 
+homepage: https://github.com/krishpranav/ruby-nmap#readme
+has_yard: true
+
+required_ruby_version: ">= 2.0.0"
+
+requirements: nmap >= 5.00
+
+dependencies:
+  nokogiri: ~> 1.3
+  rprogram: ~> 0.3
+
+development_dependencies:
+  bundler: ~> 2.0
