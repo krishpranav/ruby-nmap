@@ -2,6 +2,7 @@
 A simple nmap made in ruby 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
 # Installation
 ```
