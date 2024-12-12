@@ -9,6 +9,7 @@ module Nmap
         
         def ptr?
             self.type == 'PTR'
+        end
 
         def to_s
             self.name.to_s
